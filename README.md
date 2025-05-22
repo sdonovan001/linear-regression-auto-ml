@@ -5,3 +5,11 @@ AutoML, or Automated Machine Learning, automates the process of building and dep
 The AutoML Pipeline is very similar to a standard ML Pipeline.  The big difference is with a standard ML Pipeline you have to write model training code and manually iterate on training / validating / tuning to arrive at a good predictive model, with AutoML you need only answer a few prompts on the GCP console... and wait for the system to do all of the leg work for you.
 
 <img src="/images/auto-ml-pipeline.png" alt="On Nooo!" witdh="400" height="300">
+
+### Data Preparation
+
+### Model Training
+
+### Model Serving (Cloud)
+
+### Model Serving (Local)
