@@ -4,4 +4,4 @@ AutoML, or Automated Machine Learning, automates the process of building and dep
 ### AutoML Pipeline
 Bla... bla... bla...
 
-<img src="/images/auto-ml-pipeline.png" alt="On Nooo!" witdh="600" height="450">
+<img src="/images/auto-ml-pipeline.png" alt="On Nooo!" witdh="500" height="350">
