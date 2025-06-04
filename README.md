@@ -13,7 +13,7 @@ The AutoML Pipeline is very similar to a standard ML Pipeline.  The big differen
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/vCp4Ih029ds "Data Prep")
 
 ### Model Training
-[![something is broken](/images/video2.png)](https://www.youtube.com/embed/vCp4Ih029ds "Model Training")
+[![something is broken](/images/video2.png)](https://www.youtube.com/embed/6U-NFiU6f4A "Model Training")
 
 ### Model Serving (Cloud)
 
