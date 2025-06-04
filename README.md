@@ -9,10 +9,13 @@ The AutoML Pipeline is very similar to a standard ML Pipeline.  The big differen
 <img src="/images/auto-ml-pipeline.png" alt="On Nooo!" witdh="400" height="300">
 
 ### Data Preparation
+To use AutoML to train our model, we must first upload our data to a GCP storage bucket and create a Vertex AI dataset.  The video below walks you through doing that.
 
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/vCp4Ih029ds "Data Prep")
 
 ### Model Training
+Now that we have a dataset to use to train our model, we need to provide AutoML with some configuration information so it can train our model.  The video below walks you through those steps.
+
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/6U-NFiU6f4A "Model Training")
 
 ### Model Serving (Cloud)
