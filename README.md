@@ -19,5 +19,36 @@ Now that we have a dataset to use to train our model, we need to provide AutoML 
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/6U-NFiU6f4A "Model Training")
 
 ### Model Serving (Cloud)
+Add video for model deployment
+```
+# Authenticate with GCP...
+gcloud auth application-default login
+
+# Set a default region for Vertex AI...
+gcloud config set ai/region us-east1
+
+# Save a few values for later use... 
+REGION=$(gcloud config get-value ai/region)
+ENDPOINT_ID=$(gcloud ai endpoints list | grep -v ENDPOINT | grep cab-fare | awk '{print $1}')
+
+# Look at request payload...
+cat test-prediction.json
+
+{
+  "instances": [
+    { "TRIP_MILES": "24.7", "TRIP_MINUTES": "40.66" },
+    { "TRIP_MILES": "4.66", "TRIP_MINUTES": "16.95" },
+    { "TRIP_MILES": "8.23", "TRIP_MINUTES": "17.41" },
+  ]
+}
+
+# Send test-prediction.json to our Vertex AI endpoint...
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @test-prediction.json \
+     "https://${REGION}-aiplatform.googleapis.com/v1/projects/${PROJECT_ID}/locations/${REGION}/endpoints/${ENDPOINT_ID}:predict"
+
+```
 
 ### Model Serving (Local)
