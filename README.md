@@ -49,6 +49,30 @@ curl -X POST \
      -d @test-prediction.json \
      "https://${REGION}-aiplatform.googleapis.com/v1/projects/${PROJECT_ID}/locations/${REGION}/endpoints/${ENDPOINT_ID}:predict"
 
+# This should return something similar to...
+{
+  "predictions": [
+    {
+      "lower_bound": 52.018825531005859,
+      "upper_bound": 75.477867126464844,
+      "value": 61.399127960205078
+    },
+    {
+      "value": 15.74298095703125,
+      "lower_bound": 11.93512058258057,
+      "upper_bound": 22.818044662475589
+    },
+    {
+      "lower_bound": 18.86994743347168,
+      "value": 23.560920715332031,
+      "upper_bound": 39.190505981445312
+    }
+  ],
+  "deployedModelId": "5247329083607482368",
+  "modelDisplayName": "cab-fare",
+  "modelVersionId": "1"
+}
+
 ```
 
 ### Model Serving (Local)
