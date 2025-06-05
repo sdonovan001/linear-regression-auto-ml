@@ -21,13 +21,16 @@ Now that we have a dataset to use to train our model, we need to provide AutoML 
 ### Model Serving (Cloud)
 Add video for model deployment
 ```
+# To hit the endpoint from the command line...
+
 # Authenticate with GCP...
 gcloud auth application-default login
 
 # Set a default region for Vertex AI...
 gcloud config set ai/region us-east1
 
-# Save a few values for later use... 
+# Save a few values for later use...
+PROJECT_ID=$(gcloud config get-value project)
 REGION=$(gcloud config get-value ai/region)
 ENDPOINT_ID=$(gcloud ai endpoints list | grep -v ENDPOINT | grep cab-fare | awk '{print $1}')
 
