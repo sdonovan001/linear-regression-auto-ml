@@ -24,7 +24,7 @@ Now that we have trained our model, we can easily stand up an AutoML Endpoint to
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/PsSKW01U2Dk "Model Serving")
 
 ```
-# To hit the endpoint from the command line...
+# To hit the model we just deployed to an endpoint from the command line... follow the steps below.
 
 # Authenticate with GCP...
 gcloud auth application-default login
