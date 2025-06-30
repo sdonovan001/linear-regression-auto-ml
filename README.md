@@ -19,7 +19,10 @@ Now that we have a dataset to use to train our model, we need to provide AutoML 
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/6U-NFiU6f4A "Model Training")
 
 ### Model Serving (Cloud)
-Add video for model deployment
+Now that we have trained our model, we can easily stand up an AutoML Endpoint to serve our model predictions.  The video below walks you through those steps.
+
+[![something is broken](/images/video2.png)](https://www.youtube.com/embed/PsSKW01U2Dk "Model Serving")
+
 ```
 # To hit the endpoint from the command line...
 
