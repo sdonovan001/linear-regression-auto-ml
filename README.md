@@ -86,5 +86,5 @@ While leveraging AutoML enables you to train a model without writing code, it se
 
 
 <kbd>
-<img src="/images/auto-ml-ip.png" alt="On Nooo!" width="650" height="500">
+<img src="/images/auto-ml-ip.png" alt="On Nooo!" width="800" height="550">
 </kbd>
