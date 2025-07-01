@@ -83,3 +83,5 @@ curl -X POST \
 
 ### Model Serving (Local)
 While leveraging AutoML enables you to train a model without writing code, it seems wrong that the model I paied Google to produce for me is now subject to vendor lock in when it comes time to serve my model.  This should be my intellectual property that I can do with as I please.  Well... it is... and you can!
+
+<img src="/images/auto-ml-ip.png" alt="On Nooo!" witdh="650" height="350">
