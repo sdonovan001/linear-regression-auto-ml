@@ -99,3 +99,6 @@ Serving a model locally when you trained it on Vertex AI is pretty simple.  The 
 * Download the model artifacts locally.
 * Pull the appropriate Docker container for model serving.
 * Run the container... serve predictions.
+
+#### Exporting the Model
+[![something is broken](/images/video2.png)](https://www.youtube.com/embed/PsSKW01U2Dk "Model Serving")
