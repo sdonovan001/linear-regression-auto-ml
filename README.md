@@ -1,5 +1,5 @@
 # Linear Regression With AutoML (No Coding Necessary!)
-AutoML, or Automated Machine Learning, automates the process of building and deploying machine learning models, making it more accessible and efficient, even for those without extensive data science experience. It handles tasks like data preparation, feature selection, model selection, and hyperparameter tuning automatically. In the videos contained in this repo, I'll show you how you can train and serve a predictive linear regression model, similar to what we did in this [repo](https://github.com/sdonovan001/ml-linear-regression/blob/main/README.md), but without writing a single line of code!
+AutoML, or Automated Machine Learning, automates the process of building and deploying machine learning models, making it more accessible and efficient, even for those without extensive data science experience. It handles tasks like data preparation, feature selection, model selection, and hyperparameter tuning automatically. In this repo I'll show you how you can train and serve a predictive linear regression model, similar to what we did in this [repo](https://github.com/sdonovan001/ml-linear-regression/blob/main/README.md), but without writing a single line of code!
 
 [![something is broken](/images/video1.png)](https://www.youtube.com/embed/7P9HQUvk2DA "Overview")
 
