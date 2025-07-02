@@ -91,7 +91,7 @@ While leveraging AutoML enables you to train a model without writing code, it se
 
 <p> </p>
 
-Serving a model locally when you trained it on Vertex AI is pretty simple.  The most complicated aspect of it is ensuring that the container that you are using for serving locally has all of the same versions of the components present in the container you used for training.  This is critical because the TF SavedModel format changes slightly over time.  You must ensure that the format of the model you saved is compatible with the format the serving container is expecting.  While that could be a huge sink hole of time... I'll show you how to easily side step that problem.  The steps for serving a Vertex AI trained model locally are:
+Serving a model locally when you trained it on Vertex AI is pretty simple.  The most complicated aspect is ensuring the container you are using for serving locally has all the same versions of the components present in the container you used for training.  This is critical because the TF SavedModel format changes slightly over time.  You must ensure the format of the model you saved is compatible with the format the serving container is expecting.  While that could be a huge sink hole of time... I'll show you how to easily side step that problem.  The steps for serving a Vertex AI trained model locally are:
 
 <p> </p>
 
