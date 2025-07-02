@@ -44,7 +44,7 @@ cat test-prediction.json
   "instances": [
     { "TRIP_MILES": "24.7", "TRIP_MINUTES": "40.66" },
     { "TRIP_MILES": "4.66", "TRIP_MINUTES": "16.95" },
-    { "TRIP_MILES": "8.23", "TRIP_MINUTES": "17.41" },
+    { "TRIP_MILES": "8.23", "TRIP_MINUTES": "17.41" }
   ]
 }
 
