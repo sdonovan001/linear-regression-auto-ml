@@ -106,7 +106,7 @@ Serving a model locally when you trained it on Vertex AI is pretty simple.  The 
 
 #### Download... Pull... Run... Serve
 ```
-bla...bla...bla...
 
+docker run --platform linux/amd64 -v `pwd`/tf-saved-model/cab-fare:/models/default -p 8080:8080 -it us-docker.pkg.dev/vertex-ai/automl-tabular/prediction-server:prod
 
 ```
