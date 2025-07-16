@@ -102,7 +102,7 @@ Serving a model locally when you trained it on Vertex AI is pretty simple.  The 
 * Run the container... serve predictions.
 
 #### Exporting the Model
-[![something is broken](/images/video2.png)](https://www.youtube.com/embed/PsSKW01U2Dk "Model Serving")
+[![something is broken](/images/video2.png)](https://www.youtube.com/embed/OggyXfDCzWY "Model Export")
 
 #### Download... Pull... Run... Serve
 ```
