@@ -9,7 +9,7 @@ A standard machine learning (ML) pipeline is a systematic workflow that streamli
 <img src="/images/auto-ml-pipeline.png" alt="On Nooo!" witdh="400" height="300">
 
 ### Data Preparation
-Data preparation in machine learning is the process of cleaning, transforming, and organizing raw data into a format suitable for training machine learning models. This crucial step ensures that the data is accurate, consistent, and relevant, leading to more reliable and effective models. In this example, most of that work has already been done for us.  To use AutoML to train our model, we need only upload our [taxi-fare.csv](/datasets/taxi-fare-csv)  data to a GCP storage bucket and create a Vertex AI dataset.  The video below walks you through doing that.
+Data preparation in machine learning is the process of cleaning, transforming, and organizing raw data into a format suitable for training machine learning models. This crucial step ensures that the data is accurate, consistent, and relevant, leading to more reliable and effective models. In this example, most of that work has already been done for us.  To use AutoML to train our model, we need only upload our [taxi-data.csv](/datasets/taxi-data.csv) to a GCP storage bucket and create a Vertex AI dataset.  The video below walks you through doing that.
 
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/vCp4Ih029ds "Data Prep")
 
