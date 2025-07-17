@@ -21,7 +21,7 @@ Model training is the process of teaching a machine learning (ML) model to make 
 ### Model Serving
 Model serving is the process of making a trained machine learning model accessible for making predictions in a production environment. It involves deploying the model, typically behind an API, so that applications or users can interact with it and receive real-time or batch predictions. Essentially, it's the bridge between a trained model and its practical application. 
 
-Since we have trained our model in the cloud, the easiest way to expose it as a service is to stand up an AutoML Cloud Endpoint to serve predictions.  While it may be easy leveraging cloud computing resources cost money... so I will also show you how to serve you model locally on compute resources that you already own.
+Since we have trained our model in the cloud, the easiest way to expose it as a service is to stand up an AutoML Cloud Endpoint to serve predictions.  While it may be easy... leveraging cloud computing resources cost money... so I will also show you how to serve you model locally on compute resources that you already own.
 
 * [Model Serving with Cloud Endpoints](/cloud-serving/README.md)
 * [Model Serving Locally with Docker](/local-serving/README.md)
