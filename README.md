@@ -24,5 +24,5 @@ Model serving is the process of making a trained machine learning model accessib
 Since we have trained our model in the cloud, the easiest way to expose it as a service is to stand up an AutoML Cloud Endpoint to serve predictions.  While it may be easy... leveraging cloud computing resources cost money... so I will also show you how to serve you model locally on compute resources that you already own.
 
 * [Model Serving with Cloud Endpoints](/cloud-serving/README.md)
-* [Model Serving Locally with Docker(Bind Mount)](/local-serving/README.md)
-* [Model Serving Locally with Docker(Custom Container)](/local-serving/README.md)
+* [Model Serving Locally with Docker (Bind Mount)](/local-serving/README.md)
+* [Model Serving Locally with Docker (Custom Container)](/local-serving/README.md)
