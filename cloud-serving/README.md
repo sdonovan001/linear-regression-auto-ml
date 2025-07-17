@@ -1,5 +1,5 @@
 # Model Serving (Cloud)
-Now that we have trained our model, we can easily stand up an AutoML Endpoint to serve our model predictions.  The video below walks you through those steps.
+Now that we have trained our model, we can easily stand up an AutoML Endpoint to serve our model predictions.  Keep in mind that using cloud computing resources to serve your model costs money.  You should always perform a cost projection before deploying cloud resources.  The video below walks you through those steps of deploying a model to a Cloud Endpoint.
 
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/PsSKW01U2Dk "Model Serving")
 
