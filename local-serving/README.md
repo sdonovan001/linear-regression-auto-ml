@@ -17,10 +17,10 @@ Serving a model locally when you trained it on Vertex AI is pretty simple.  The 
 * Pull the appropriate Docker container for model serving.
 * Run the container... and serve predictions.
 
-#### Exporting the Model
+#### Exporting the Model / Download Model Locally
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/OggyXfDCzWY "Model Export")
 
-#### Download... Pull... Run... Serve
+#### Pull Container / Run Container / Serve Predictions
 ```
 # Perform some cleanup on the path of the downloaded model artifacts to make bind mounting
 # your model into a docker container easier...
@@ -34,7 +34,7 @@ container=$(cat ./tf-saved-model/env* | jq .| grep container | awk '{ print $2 }
 docker pull ${container}
 
 # Run prebuilt GCP container (the container used to train the model) to serve the model...
-docker run --platform linux/amd64 -v `pwd`/tf-saved-model:/models/default -p 8080:8080 -it us-docker.pkg.dev/vertex-ai/automl-tabular/prediction-server:prod
+docker run --platform linux/amd64 -v `pwd`/tf-saved-model:/models/default -p 8080:8080 -it ${container}
 
 # Test the container in another window....
 curl -X POST -d @test-prediction.json http://localhost:8080/predict | jq .
