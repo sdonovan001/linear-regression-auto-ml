@@ -15,9 +15,10 @@ Serving a model locally when you trained it on Vertex AI is pretty simple.  The 
 * Export the trained model to a GCS storage bucket.
 * Download the model artifacts locally.
 * Pull the appropriate Docker container for model serving.
-* Run the container... and serve predictions.
+* Run the container locally.
+* Serve predictions locally.
 
-#### Exporting the Model / Download Model Locally
+#### Export the Model / Download Model
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/OggyXfDCzWY "Model Export")
 
 #### Pull Container / Run Container / Serve Predictions
