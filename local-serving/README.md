@@ -22,6 +22,8 @@ Serving a model locally when you trained it on Vertex AI is pretty simple.  The 
 [![something is broken](/images/video2.png)](https://www.youtube.com/embed/OggyXfDCzWY "Model Export")
 
 #### Pull Container / Run Container / Serve Predictions
+[![something is broken](/images/video2.png)](https://www.youtube.com/embed/vefoUVGIL10 "Local Serving")
+
 ```
 # Perform some cleanup on the path of the downloaded model artifacts to make bind mounting
 # your model into a docker container easier...
