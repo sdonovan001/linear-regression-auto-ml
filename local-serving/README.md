@@ -34,7 +34,7 @@ container=$(cat ./tf-saved-model/env* | jq .| grep container | awk '{ print $2 }
 docker pull ${container}
 
 # Run prebuilt GCP container (the container used to train the model) to serve the model...
-docker run --platform linux/amd64 -v `pwd`/tf-saved-model/cab-fare:/models/default -p 8080:8080 -it us-docker.pkg.dev/vertex-ai/automl-tabular/prediction-server:prod
+docker run --platform linux/amd64 -v `pwd`/tf-saved-model:/models/default -p 8080:8080 -it us-docker.pkg.dev/vertex-ai/automl-tabular/prediction-server:prod
 
 # Test the container in another window....
 curl -X POST -d @test-prediction.json http://localhost:8080/predict | jq .
