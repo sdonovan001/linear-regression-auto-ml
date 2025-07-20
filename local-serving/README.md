@@ -22,6 +22,11 @@ Serving a model locally when you trained it on Vertex AI is pretty simple.  The 
 
 #### Download... Pull... Run... Serve
 ```
+# Perform some cleanup on the path of the downloaded model artifacts to make bind mounting
+# it into a docker container easier...
+mkdir tf-saved-model
+cp -r ./model*/tf*/20*/* ./tf-saved-model
+
 # Run model in a GCP prebuilt container (the container used to train the model)...
 docker run --platform linux/amd64 -v `pwd`/tf-saved-model/cab-fare:/models/default -p 8080:8080 -it us-docker.pkg.dev/vertex-ai/automl-tabular/prediction-server:prod
 
